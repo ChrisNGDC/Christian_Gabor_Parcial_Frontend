@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    border: .1rem solid #000;
+    border-radius: 12.5px;
+    margin: auto 25%;
+    padding: 1.5rem;
+}
+
+input {
+    margin: .2rem;
+    width: 30%;
+}
+
+#mensaje {
+    color: #FF0000;
+    font-size: smaller;
+    text-align: center;
+}
+
+button {
+    width: 10%;
+    margin: 1rem 45%;
+}
+
+#btnBorrar {
+    visibility: hidden;
+}
+
+.tabla {
+    width: 50%;
+    margin: 2rem 25%;
+}
+
+#idTabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: .1rem solid #000000;
+}
+
+#encabezado:hover {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
